@@ -1,0 +1,9 @@
+Two ways to pull company information via LinkedIn. First using the LinkedIn API and the second using the selenium web driver. Use the arg.py script as follows:
+
+$ python arg.py -username [xxxx@xxx.com] -password [xxxxxxxx]  -company [company Name]
+
+This will pull a members count for the [Company Name] provided. And the URL to show them.
+
+Put the companies name in the text file [CompaniesNames.txt] and modify the username and password inside the code to run the parse company members python file.
+
+This provides members counts and links to show them. We can parse 1000 companies for each run. 
