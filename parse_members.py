@@ -28,10 +28,6 @@ password_input.send_keys(PASSWORD)
 driver.find_element_by_xpath('//button[text()="Sign in"]').click()
 
 
-
-
-
-
 with open("CompaniesNames.txt", "r") as f:
 	urls = f.read().splitlines()
 
@@ -53,31 +49,5 @@ for link in (urls):
 	print(str(link),":",employees.text[8:])
 
 
-
-
-
   #  NumEmplyees1 = section.find_element_by_xpath(".//div[@class='ember-view link-without-visited-state inline-block']")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
