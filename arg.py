@@ -30,10 +30,6 @@ password_input.send_keys(args.input1)
 driver.find_element_by_xpath('//button[text()="Sign in"]').click()
 
 
-
-
-
-
 driver.get('https://www.linkedin.com/company/'+str(args.input2)+'/')
 Sort = driver.find_element_by_xpath(".//section[@class='org-top-card artdeco-card ember-view']")
 source_code = Sort.get_attribute("outerHTML")
@@ -44,32 +40,4 @@ members = employees.find_element_by_xpath(".//a[@class='ember-view link-without-
 print(str(args.input2),":",employees.text[8:])
 print(members.get_attribute('href'))
 
-
-
-
-
   #  NumEmplyees1 = section.find_element_by_xpath(".//div[@class='ember-view link-without-visited-state inline-block']")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
